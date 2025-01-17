@@ -19,7 +19,7 @@ export default function User() {
         try {
 
 
-            const response = await axios.post('https://backend-pf-d6v3.vercel.app/user', novoUsuario);
+            const response = await axios.post('mysql://root:OahhFtNaOnKdAQcQbdBmzUnBsjgUBvYX@junction.proxy.rlwy.net:21772/railway', novoUsuario);
             alert('Dado adicionado');
 
           
