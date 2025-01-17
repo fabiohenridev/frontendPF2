@@ -19,7 +19,7 @@ export default function User() {
         try {
 
 
-            const response = await axios.post('http://localhost:3000/user', novoUsuario);
+            const response = await axios.post('https://backendpf-tv7y.onrender.com/user', novoUsuario);
             alert('Dado adicionado');
 
           
