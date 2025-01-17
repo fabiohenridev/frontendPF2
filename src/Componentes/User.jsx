@@ -19,7 +19,7 @@ export default function User() {
         try {
 
 
-            const response = await axios.post('https://localhost:3000/user', novoUsuario);
+            const response = await axios.post('https://backend-pf-d6v3.vercel.app/user', novoUsuario);
             alert('Dado adicionado');
 
           
